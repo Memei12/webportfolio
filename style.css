@@ -1,0 +1,22 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#landingPage {
+	/*opacity:  .60*/
+	background-color:  rgba(0,0,0,.60);
+}
+
+body {
+	/*background-color: #343a40;*/
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNXlGDlFlTJ8TpxOeNSfRLtB7gfpaSmfBSBQ&usqp=CAU);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
