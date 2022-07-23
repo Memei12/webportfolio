@@ -14,7 +14,7 @@
 	<!-- Goodle Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto:wght@100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
 
 	<!-- External CSS -->
@@ -25,56 +25,59 @@
 </head>
 <body>
 	<!-- navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
-  		<a class="navbar-brand" href="#landing">
-  			<img class="img-fluid mx-5 d-inline-block align-top" src="./images/logo.png" width="70" height="50" alt="mylogo">
-  		</a>
-	   <button class="navbar-toggler mx-5" type="button" data-toggle="collapse" data-target="#batch167nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	     <span class="navbar-toggler-icon"></span>
-	   </button>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-center">
+	  <a class="navbar-brand" href="./index.html">
+	  	<em><strong>Ruby Sargento</strong></em></a>
 
-	   <div class="collapse navbar-collapse" id="navbar">
-	     <ul class="navbar-nav ml-auto">
-	       <li class="nav-item">
-	         <a class="nav-link text-secondary" href="#landing"><strong>ABOUT ME</strong></a>
-	       </li>
-	       <li class="nav-item">
-	         <a class="nav-link text-secondary" href="./gallery.html"><strong>GALLERY</strong></a>
-	       </li>
-	       <li class="nav-item">
-	       	 <a class="nav-link text-secondary" href="./contact.html"><strong>SEND ME A MESSAGE!</strong></a>
-	       </li>
-	     </ul>
-	   </div>
-	 </nav>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html"><strong>ABOUT ME</strong><span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="./gallery.html"><strong>GALLERY</strong></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="./contact.html"><strong>CONTACT US!</strong></a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
 	<!-- navbar end -->
 
 	<!-- Landing Page -->
 	<div class="container">
-		<div class="row d-none d-md-flex flex-column align-items-center jumbotron mt-2 text-white" id="landingPage">
-			<div>
-			<div class="col-8 col-md-4">
-				<img class="img-fluid rounded-circle border border-secondary" id="Me" src="./images/Me.jpg" alt="Me">
+		<div class="row d-none d-md-flex flex-column align-items-center mt-4 text-white" id="landingpage">
+			<div class="col-12 col-md-2">
+				<img class="img-fluid " id="myimage" src="./Images/Me.png" alt="profile">
 			</div>
 
-			<div class="col-12 col-md-9 text-center text-secondary" id="AboutMe">
-				<h2 class="mt-4 mb-2" id="myname">Ruby Mae Sargento</h2>
-				<h4 class="my-2">Full-Stack Developer</h4>
+			<div class="col-12 col-md-6 text-center">
+				<h1 class="mt-4 mb-2 font-weight-bold" id="myname">Ruby Mae Sargento</h1>
+				<h3 class="my-2" id="fsd">Full-Stack Developer</h3>
 			</div>
 
-			<div class="text-secondary">
-				<p><em>
-					Cagayan Valley, Phillipines
-				</em></p>
+			<div class="col-12 col-md-6 text-center">
+				<p>	
+					An Operations and HR Manager and a Customer Service Representative, Aspiring to be a Full-Stack Developer.
+				</p>
 			</div>
+
+			<button type="button" class="btn btn-outline-primary">
+				<a class="cvbutton" href="./cv/CV.pdf" download>Download My CV </a>
+			</button>
 		</div>
-	</div>
 	</div>
 	<!-- End of Landing Page -->
 
-	<footer>
-
+	<!-- Footer -->
+	<footer class="fixed-bottom bg-dark text-center text-secondary p-1">
+		Copyright &copy; Ruby Mae Sargento | 2022 All Rights Reserved
 	</footer>
+	<!-- End of Footer -->
 
 
 	<!-- JS Dependencies -->

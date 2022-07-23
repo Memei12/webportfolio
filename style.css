@@ -1,22 +1,64 @@
 * {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.navbar {
-	padding-top: 0;
-	padding-bottom: 0;
+#navbar {
+	margin-left: 80px;
+	margin-right: 5rem;
 }
 
-#landingPage {
-	/*opacity:  .60*/
-	background-color:  rgba(0,0,0,.60);
+
+
+a:hover{
+color:blue!important;
 }
 
 body {
-	/*background-color: #343a40;*/
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNXlGDlFlTJ8TpxOeNSfRLtB7gfpaSmfBSBQ&usqp=CAU);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+  margin: 10%;
+  font-family: Roboto, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 2rem;
+  line-height: 1.5;
+  color: White;
+  text-align: left;
+  background-color: #1C2321;
 }
 
+img {
+border: 3px solid blue;
+}
+
+h1 {
+	text-decoration-style: wavy;
+}
+
+h4 {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
+
+.modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: dark;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
