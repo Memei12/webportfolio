@@ -34,8 +34,11 @@
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNav">
 	    <ul class="navbar-nav ml-auto">
+	    <li class="nav-item">
+	        <a class="nav-link" href="index.html"><strong>HOME</strong><span class="sr-only">(current)</span></a>
+	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="index.html"><strong>ABOUT ME</strong><span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#aboutme"><strong>ABOUT ME</strong><span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="./gallery.html"><strong>GALLERY</strong></a>
@@ -49,29 +52,62 @@
 	<!-- navbar end -->
 
 	<!-- Landing Page -->
-	<div class="container">
-		<div class="row d-none d-md-flex flex-column align-items-center mt-4 text-white" id="landingpage">
-			<div class="col-12 col-md-2">
-				<img class="img-fluid " id="myimage" src="./Images/Me.png" alt="profile">
-			</div>
+			<h4 class="text-center font-weight-bold text-primary">Hello There! I'm Ruby,</h4>
+            <div class="container-fluid mt-2">
+            <div class="row p-2">
+                <div class="col-12 col-md-8 text-center order-2 order-md-1">
+                    
+                    <p class="mt-3">A Freelancer</p>
+                    <p class="mt-1">An Operations and HR Manager,</p>
+                    <p class="mt-1">A Customer Service Representative,</p>
+                    <p class="mt-1">An IT Recruiter,</p>
+                    <p class="mt-1">-and-</p>
+                    <h6 class="text-center font-weight-bold text-primary">An Aspiring Full-Stack Developer</h6>
 
-			<div class="col-12 col-md-6 text-center">
-				<h1 class="mt-4 mb-2 font-weight-bold" id="myname">Ruby Mae Sargento</h1>
-				<h3 class="my-2" id="fsd">Full-Stack Developer</h3>
-			</div>
-
-			<div class="col-12 col-md-6 text-center">
-				<p>	
-					An Operations and HR Manager and a Customer Service Representative, Aspiring to be a Full-Stack Developer.
-				</p>
-			</div>
-
-			<button type="button" class="btn btn-outline-primary">
+            <button type="button" class="btn btn-outline-primary mt-5">
 				<a class="cvbutton" href="./cv/CV.pdf" download>Download My CV </a>
 			</button>
-		</div>
-	</div>
+                </div>
+
+
+                <div class="col-12 col-md-4 text-center order-1 order-md-2 mb-5">
+                    <img class="img-fluid mx-auto d-block rounded-circle" src="./images/Me.png"/>
+                </div>
+            </div>
+            </div>
 	<!-- End of Landing Page -->
+
+	<!-- About Me -->
+<!-- 			<div class="container-fluid mt-5" id="aboutme">	
+				<div>
+					<h4 class="text-center font-weight-bold text-primary">About Me</h4>
+				</div>
+			</div> -->
+	<!-- end of About Me -->
+	<div class="navbar2 mt-5" id="aboutme">	
+			<ul class="nav nav-tabs" id="nav-tab" role="tablist">
+	  			<li class="nav-item">
+	    				<a class="nav-link" data-bs-toggle="tab" href="#me">About Me</a>
+	  			</li>
+	  			<li class="nav-item">
+	    				<a class="nav-link" data-bs-toggle="tab" href="#work">Proffesional Experience</a>
+	  			</li>
+	  			<li class="nav-item">
+	   				 <a class="nav-link" data-bs-toggle="tab" href="#education">Education</a>
+	 			</li>
+			</ul>
+	</div>
+		<div class="tab-content" id="myTabContent">
+  			<div class="tab-pane fade show active" id="me" role="tabpanel" aria-labelledby="home-tab">...</div>
+
+  			<div class="tab-pane fade" id="work" role="tabpanel" aria-labelledby="profile-tab">I am currently working as an Operations and HR Manager for a US Based financial company
+  
+
+  			</div>
+
+  			<div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="contact-tab">...</div>
+		</div>
+	
 
 	<!-- Footer -->
 	<footer class="fixed-bottom bg-dark text-center text-secondary p-1">
