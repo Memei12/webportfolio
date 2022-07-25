@@ -19,6 +19,8 @@ a:hover{
 color:blue!important;
 }
 
+
+
 body {
   margin: 10%;
   font-family: Roboto, sans-serif;
@@ -29,6 +31,7 @@ body {
   text-align: left;
   background-color: #1C2321;
 }
+
 
 img {
 border: 3px solid blue;
@@ -73,5 +76,5 @@ h4 {
 }
 
 .fa-icons {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
